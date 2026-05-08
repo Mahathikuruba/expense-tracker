@@ -1,0 +1,101 @@
+
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: #f4f6fb;
+}
+
+/* MAIN CONTAINER */
+.container {
+  max-width: 520px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* INPUTS */
+input, select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* ALL BUTTONS DEFAULT */
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+}
+
+/* NAV FILTER BUTTONS */
+.nav {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.nav button {
+  background: #e5e7eb;
+  color: black;
+}
+
+.nav .active {
+  background: #4f46e5;
+  color: white;
+}
+
+/* CARDS */
+.card {
+  background: #f9fafb;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* EXPENSE CARD */
+.expense-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9fafb;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+/* CHART */
+.chart {
+  display: flex;
+  justify-content: center;
+}
+
+/* PDF BUTTON */
+.pdf-btn {
+  background: #111827;
+}
+
+/* 🔥 FIX LOGOUT BUTTON */
+.logout {
+  background: #ef4444 !important;
+  margin-top: 10px;
+}
+
+/* WELCOME TEXT */
+.welcome {
+  font-size: 14px;
+  color: gray;
+}
